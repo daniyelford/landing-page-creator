@@ -1,306 +1,261 @@
-<?php
-session_start();
-if(!isset($_SESSION['run_project']) && empty($_SESSION['run_project'])){?>
-<html lang="en">
-    <head>
-	<meta charset="UTF-8">
-	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="Description" content="">
-	<meta name="Author" content="DanialFrd">
-	<meta name="Keywords" content=""/>
-	<!-- Title -->
-	<title>ثبت نام</title>
-	<!-- Favicon -->
-	<link rel="icon" href="project/assets/img/brand/logo1.png" type="image/x-icon"/>
-	<!--  Custom Scroll bar-->
-	<link href="project/assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
-	<link href="project/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet"/>
-	<!--- Style css -->
-	<link href="project/assets/css-rtl/style.css" rel="stylesheet">
-	<!--- Dark-mode css -->
-	<link href="project/assets/css-rtl/style-dark.css" rel="stylesheet">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
-	<!---Skinmodes css-->
-	<link href="project/assets/css-rtl/skin-modes.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link href="project/assets/plugins/fileuploads/css/fileupload.css" rel="stylesheet" type="text/css">
-    <link href="project/assets/plugins/fancyuploder/fancy_fileupload.css" rel="stylesheet">
-    <link rel="stylesheet" href="project/assets/plugins/sumoselect/sumoselect-rtl.css">
-    <link rel="stylesheet" href="project/assets/plugins/telephoneinput/telephoneinput-rtl.css">
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-</head>
-    <body class="main-body app sidebar-mini" id="tmMode">
-        <div class="container-fluid mt-3" style="min-height:480px;">
-    <div class="row">
-				<div class="col-lg-12 col-md-12">
-					<div class="card">
-						<div class="card-body">
-							<div class="main-content-label mg-b-5">
-							    ثبت نام 		
-							</div>
-							<p class="mg-b-20">مراحل ثبت نام را به ترتیب پشت سر بگذارید</p>
-							<div id="wizard3" role="application" class="wizard clearfix vertical"><div class="steps clearfix">
-							    <ul role="tablist">
-							        <li role="tab" class="first" aria-disabled="false" aria-selected="false">
-							            <a id="wizard3-t-0" href="#" aria-controls="wizard3-p-0">
-							                <span class="number">1</span>
-							                <span class="title">ثبت دامنه واطلاعات دیتابیس</span>
-							            </a>
-							        </li>
-							        <li role="tab" class="" aria-disabled="false" aria-selected="false">
-							            <a id="wizard3-t-1" href="#" aria-controls="wizard3-p-1">
-							                <span class="number">2</span> 
-							                <span class="title">ثبت کاربر آدمین</span> 
-							            </a>
-							        </li>
-							        </ul> 
-							        </div>  
-							        <div class="content clearfix">
-					                
-							        <form id='f2'>
-								    <h3 id="wizard3-h-0" tabindex="-1" class="title">اطلاعات دامنه</h3>
-								    <section id="wizard3-p-0" role="tabpanel" aria-labelledby="wizard3-h-0" class="body" aria-hidden="true">
-									<div class="control-group form-group">
-										<label class="form-label">نام کسب و کار و یا شرکت خود را وارد کنید</label>
-									<input  name='com'
-            class='form-control rounded-5'
-            id='com'
-            placeholder='نام سایت و کسب و کار'
-            type='text'/>
-									</div>
-									<div class="control-group form-group">
-										<label class="form-label">نام دیتابیس سایت خود را وارد کنید</label>
-										<input  name='dbname'
-            class='form-control rounded-5'
-            id='dbname'
-            placeholder='نام دیتابیس'
-            type='text'/>
-									</div>
-									<div class="control-group form-group">
-										<label class="form-label">نام کاربری سایت خود را وارد کنید</label>
-										<input name='username'
-            class='form-control rounded-5'
-            id='username'
-            placeholder='نام کاربری سایت'
-            type='text'/>
-									</div>
-									
-									<div class="control-group form-group">
-										<label class="form-label">رمز عبور سایت خود را وارد کنید</label>
-										<input   name='password'
-            class='form-control rounded-5'
-            id='password'
-            placeholder='رمز عبور سایت'
-            type='password'/>
-									</div>
-									<div class="control-group form-group mb-0">
-									    <input class="btn btn-success-gradient btn-block rounded-5" value='ثبت اطلاعات'type='button'id='send' name='send' content='ثبت اطلاعات'style='height:40px;'/>
-									</div>
-								    </section>
-								    </form>
-								    
-								    
-								    <form id='f1'>
-								    <h3 id="wizard3-h-2" tabindex="-1" class="title current">در این بخش  شما به عنوان مدیر سایت در سایت خود ثبت نام می کنید</h3>
-								    <section id="wizard3-p-2" role="tabpanel" aria-labelledby="wizard3-h-2" class="body current" aria-hidden="false">
-									<div class="form-group">
-										<label class="form-label">نام کاربری</label>
-										<input  name='username_user'
-            class='form-control rounded-5'
-            id='username_user'
-            placeholder='نام کاربری'
-            type='text'/>
-									    
-										
-										
-									</div>
-									<div class="form-group">
-										<label class="form-label">رمز عبور</label>
-										<input 	        name='password_user'
-            class='form-control rounded-5'
-            id='password_user'
-            placeholder='رمز عبور'
-            type='password'/>
-									    
-										
-										
-									</div>
+<?php session_start();
+if(!isset($_SESSION['run_project']) && empty($_SESSION['run_project'])){ ?>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="Description" content="">
+			<meta name="Author" content="DanialFrd">
+			<meta name="Keywords" content=""/>
+			<!-- Title -->
+			<title>ثبت نام</title>
+			<!-- Favicon -->
+			<link rel="icon" href="project/assets/img/brand/logo1.png" type="image/x-icon"/>
+			<!--  Custom Scroll bar-->
+			<link href="project/assets/plugins/mscrollbar/jquery.mCustomScrollbar.css" rel="stylesheet"/>
+			<link href="project/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet"/>
+			<!--- Style css -->
+			<link href="project/assets/css-rtl/style.css" rel="stylesheet">
+			<!--- Dark-mode css -->
+			<link href="project/assets/css-rtl/style-dark.css" rel="stylesheet">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+			<!---Skinmodes css-->
+			<link href="project/assets/css-rtl/skin-modes.css" rel="stylesheet">
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+			<link href="project/assets/plugins/fileuploads/css/fileupload.css" rel="stylesheet" type="text/css">
+			<link href="project/assets/plugins/fancyuploder/fancy_fileupload.css" rel="stylesheet">
+			<link rel="stylesheet" href="project/assets/plugins/sumoselect/sumoselect-rtl.css">
+			<link rel="stylesheet" href="project/assets/plugins/telephoneinput/telephoneinput-rtl.css">
+			<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		</head>
+		<body class="main-body app sidebar-mini" id="tmMode">
+			<div class="container-fluid mt-3" style="min-height:480px;">
+				<div class="row">
+					<div class="col-lg-12 col-md-12">
+						<div class="card">
+							<div class="card-body">
+								<div class="main-content-label mg-b-5">
+									ثبت نام 		
+								</div>
+								<p class="mg-b-20">مراحل ثبت نام را به ترتیب پشت سر بگذارید</p>
+								<div id="wizard3" role="application" class="wizard clearfix vertical"><div class="steps clearfix">
+									<ul role="tablist">
+										<li role="tab" class="first" aria-disabled="false" aria-selected="false">
+											<a id="wizard3-t-0" href="#" aria-controls="wizard3-p-0">
+												<span class="number">1</span>
+												<span class="title">ثبت دامنه واطلاعات دیتابیس</span>
+											</a>
+										</li>
+										<li role="tab" class="" aria-disabled="false" aria-selected="false">
+											<a id="wizard3-t-1" href="#" aria-controls="wizard3-p-1">
+												<span class="number">2</span> 
+												<span class="title">ثبت کاربر آدمین</span> 
+											</a>
+										</li>
+									</ul> 
+								</div>  
+								<div class="content clearfix">            
+									<form id='f2'>
+										<h3 id="wizard3-h-0" tabindex="-1" class="title">اطلاعات دامنه</h3>
+										<section id="wizard3-p-0" role="tabpanel" aria-labelledby="wizard3-h-0" class="body" aria-hidden="true">
+											<div class="control-group form-group">
+												<label class="form-label">نام کسب و کار و یا شرکت خود را وارد کنید</label>
+												<input  name='com' class='form-control rounded-5' id='com' placeholder='نام سایت و کسب و کار' type='text'/>
+											</div>
+											<div class="control-group form-group">
+												<label class="form-label">نام دیتابیس سایت خود را وارد کنید</label>
+												<input  name='dbname' class='form-control rounded-5' id='dbname' placeholder='نام دیتابیس' type='text'/>
+											</div>
+											<div class="control-group form-group">
+												<label class="form-label">نام کاربری سایت خود را وارد کنید</label>
+												<input name='username' class='form-control rounded-5' id='username' placeholder='نام کاربری سایت' type='text'/>
+											</div>
+											<div class="control-group form-group">
+												<label class="form-label">رمز عبور سایت خود را وارد کنید</label>
+												<input name='password' class='form-control rounded-5' id='password' placeholder='رمز عبور سایت' type='password'/>
+											</div>
+											<div class="control-group form-group mb-0">
+												<input class="btn btn-success-gradient btn-block rounded-5" value='ثبت اطلاعات'type='button'id='send' name='send' content='ثبت اطلاعات'style='height:40px;'/>
+											</div>
+										</section>
+									</form>
+									<form id='f1'>
+										<h3 id="wizard3-h-2" tabindex="-1" class="title current">در این بخش  شما به عنوان مدیر سایت در سایت خود ثبت نام می کنید</h3>
+										<section id="wizard3-p-2" role="tabpanel" aria-labelledby="wizard3-h-2" class="body current" aria-hidden="false">
 										<div class="form-group">
-										<label class="form-label">تکرار رمز عبور</label>
-										<input 	        name='password_config_user'
-            class='form-control rounded-5'
-            id='password_config_user'
-            placeholder='تکرار رمز عبور'
-            type='password'/>
-									    
-										
-										
-									</div>
-									
-									<div class="form-group">
-										<label class="form-label">کد کپچا را وارد کنید</label>
-									    <input  name = 'captcha_x'
-			type = 'number' 
-			id = 'captcha_x'
-			placeholder = 'کد فعال سازی'
-	        class = 'form-inter-captcha form-control rounded-10'/>
-									    <img src="cap.php" class='img-captcha' alt="captcha">
-									</div>
+											<label class="form-label">نام کاربری</label>
+											<input  name='username_user' class='form-control rounded-5' id='username_user' placeholder='نام کاربری' type='text'/>
+										</div>
+										<div class="form-group">
+											<label class="form-label">رمز عبور</label>
+											<input name='password_user' class='form-control rounded-5' id='password_user' placeholder='رمز عبور' type='password'/>
+										</div>
+										<div class="form-group">
+											<label class="form-label">تکرار رمز عبور</label>
+											<input name='password_config_user' class='form-control rounded-5' id='password_config_user' placeholder='تکرار رمز عبور' type='password'/>
+										</div>									
+										<div class="form-group">
+											<label class="form-label">کد کپچا را وارد کنید</label>
+											<input name = 'captcha_x' type = 'number' id = 'captcha_x' placeholder = 'کد فعال سازی' class = 'form-inter-captcha form-control rounded-10'/>
+											<img src="cap.php" class='img-captcha' alt="captcha">
+										</div>
 										<div class="control-group form-group mb-0">
-									    <input class="btn btn-success-gradient btn-block rounded-5" value='ثبت نام' type='button' id='send_user' name='send_user' content='ثبت نام' style='height:40px;'/>
-									</div>
-								</section>
-							        </form>
-							        <script>
-							            $(document).ready(function(){
-							                $("#f1").hide();
-							                $("#send").click(function(e){
-    							                e.preventDefault();
-    							                let url1='https://'+window.location.hostname;
-    							                let dbname=$("#dbname").val();
-    							                let com=$("#com").val();
-    							                let username =$("#username").val();
-    							                let password = $("#password").val();
-    							                if(dbname==''){
-    							                    $("#dbname").css('border','1px solid red');
-    							                }else{
-    							                    $("#dbname").css('border','1px solid green');
-    							                }
-    							                if(com==''){
-    							                    $("#com").css('border','1px solid red');
-    							                }else{
-    							                    $("#com").css('border','1px solid green');
-    							                }
-    							                if(username==''){
-    							                    $("#username").css('border','1px solid red');
-    							                }else{
-    							                    $("#username").css('border','1px solid green');
-    							                }
-    							                if(password==''){
-    							                    $("#password").css('border','1px solid red');
-    							                }else{
-    							                    $("#password").css('border','1px solid green');
-    							                }
-    							                if(password=='' && username=='' && com=='' && dbname==''){
-    							                }else{
-    							                    let send='ok';
-    							                    $.ajax({
-    							                        url:window.location.origin + "/checking.php",
-    							                        method:"POST",
-    							                        data:{send:send,url1:url1,dbname:dbname,com:com,username:username,password:password},
-    							                        success:function(z){
-    							                            if(z==1){
-    							                                $("#f2").hide();
-    							                                $('#f1').show();
-    							                            }
-    							                            if(z==0){
-    							                                swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
-    							                                $("#dbname").css('border','1px solid red');
-                                                                $("#username").css('border','1px solid red');
-                                                                $("#password").css('border','1px solid red');
-    							                            }
-    							                        }
-    							                        ,erroe:function(){
-    							                            
-    							                        }
-    							                    })
-    							                }
-							                })
-							            });
-							       
-							            $(document).ready(function(){
-							                $('#send_user').click(function(e){
-							                    e.preventDefault();
-							                    let usr=$("#username_user").val();
-							                    let pss=$("#password_user").val();
-							                    let psscon=$("#password_config_user").val();
-							                    let cap=$("#captcha_x").val();
-							                    let a='';
-							                    let b='';
-							                    let send_user='ok';
-							                    if(usr==''){
-							                        $("#username_user").css('border','1px solid red');
-							                    }else{
-							                        $("#username_user").css('border','1px solid green');
-							                    }
-							                    if(pss==''){
-							                        $("#password_user").css('border','1px solid red');
-							                    }else{
-							                        $("#password_user").css('border','1px solid green');							                        
-							                    }
-							                    if(psscon==''){
-							                        $("#password_config_user").css('border','1px solid red');
-							                    }else{
-							                        $("#password_config_user").css('border','1px solid green');
-							                    }
-							                    if(pss==''&& psscon=='' && pss==psscon){
-							                        b='ok';
-							                    }else{
-							                        $("#password_user").css('border','1px solid red');
-							                        $("#password_config_user").css('border','1px solid red');
-							                    }
-							                    if(cap==''){
-							                        $("#captcha_x").css('border','1px solid red');
-							                    }else{
-							                        let send_cap="ok";
-							                        $.ajax({
-							                            url:window.location.origin + "/checking.php",
-							                            method:"POST",
-							                            data:{cap:cap,send_cap:send_cap},
-							                            success:function(y){
-        							                        if(y==1){
-        							                            a='ok';
-        							                            $("#captcha_x").css('border','1px solid green');
-        							                        }
-        							                        if(y==0){
-    							                                swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
-    							                                $("#captcha_x").css('border','1px solid red');
-        							                        }
-							                            },error:function(){
-							                                
-							                            }
-							                        })
-							                    }
-							                    if(usr!='' && pss!='' && psscon!='' && b!='' && a!='' && cap!=''){
-							                        $.ajax({
-							                            url:window.location.origin + "/checking.php",
-							                            method:"POST",
-							                            data:{send_user:send_user,usr:usr,pss:pss},
-							                            success:function(x){
-							                                if(x==1){
-							                                    window.location.reload();
-							                                }
-							                                if(x==0){
-    							                                swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
-							                                }
-							                            },error:function(){
-							                    
-							                            }
-							                        })
-							                    }
-							                    
-							                })
-							                
-							                
-							                
-							                
-							                
-							            })
-							        </script>
-							        
-							        
-							    </div>
-							    <div class="actions clearfix">
-							    <!--<ul role="menu" aria-label="Pagination"><li class="" aria-disabled="false"><a href="#previous" role="menuitem">قبلی</a></li><li aria-hidden="true" aria-disabled="true" class="disabled" style="display: none;"><a href="#next" role="menuitem">بعدی</a></li><li aria-hidden="false" style=""><a href="#finish" role="menuitem">پایان</a></li></ul> -->
-							    </div></div>
+											<input class="btn btn-success-gradient btn-block rounded-5" value='ثبت نام' type='button' id='send_user' name='send_user' content='ثبت نام' style='height:40px;'/>
+										</div>
+									</section>
+								</form>
+							</div>
+							<div class="actions clearfix" style="display: none;">
+								<ul role="menu" aria-label="Pagination">
+									<li class="" aria-disabled="false">
+										<a href="#previous" role="menuitem">قبلی</a>
+									</li>
+									<li aria-hidden="true" aria-disabled="true" class="disabled" style="display: none;">
+										<a href="#next" role="menuitem">بعدی</a>
+									</li>
+									<li aria-hidden="false">
+										<a href="#finish" role="menuitem">پایان</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-</div>
-    </body>
-</html>
+		</body>
+	</html>
+	<script>
+		$(document).ready(function(){
+			$("#f1").hide();
+			$("#send").click(function(e){
+    			e.preventDefault();
+    			let url1='https://'+window.location.hostname,
+    			dbname=$("#dbname").val(),
+				com=$("#com").val(),
+				username =$("#username").val(),
+    			password = $("#password").val();
+    			if(dbname==''){
+    				$("#dbname").css('border','1px solid red');
+    			}else{
+    				$("#dbname").css('border','1px solid green');
+    			}
+    			if(com==''){
+    				$("#com").css('border','1px solid red');
+    			}else{
+    				$("#com").css('border','1px solid green');
+    			}
+    			if(username==''){
+    				$("#username").css('border','1px solid red');
+    			}else{
+    				$("#username").css('border','1px solid green');
+    			}
+    			if(password==''){
+    				$("#password").css('border','1px solid red');
+    			}else{
+    				$("#password").css('border','1px solid green');
+    			}
+    			if(password=='' || username=='' || com=='' || dbname==''){
+					return false;
+    			}else{
+    				let send='ok';
+    				$.ajax({
+						url:window.location.origin + "/checking.php",
+						method:"POST",
+						data:{send:send,url1:url1,dbname:dbname,com:com,username:username,password:password},
+						success:function(z){
+							if(z==1){
+								$("#f2").hide();
+								$('#f1').show();
+							}
+							if(z==0){
+								swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
+								$("#dbname").css('border','1px solid red');
+								$("#username").css('border','1px solid red');
+								$("#password").css('border','1px solid red');
+							}
+						}
+						,erroe:function(){
+							
+						}
+					})
+				}
+			})
+		});
+		$(document).ready(function(){
+			$('#send_user').click(function(e){
+				e.preventDefault();
+				let usr=$("#username_user").val();
+				let pss=$("#password_user").val();
+				let psscon=$("#password_config_user").val();
+				let cap=$("#captcha_x").val();
+				let a='';
+				let b='';
+				let send_user='ok';
+				if(usr==''){
+					$("#username_user").css('border','1px solid red');
+				}else{
+					$("#username_user").css('border','1px solid green');
+				}
+				if(pss==''){
+					$("#password_user").css('border','1px solid red');
+				}else{
+					$("#password_user").css('border','1px solid green');							                        
+				}
+				if(psscon==''){
+					$("#password_config_user").css('border','1px solid red');
+				}else{
+					$("#password_config_user").css('border','1px solid green');
+				}
+				if(pss==''&& psscon=='' && pss==psscon){
+					b='ok';
+				}else{
+					$("#password_user").css('border','1px solid red');
+					$("#password_config_user").css('border','1px solid red');
+				}
+				if(cap==''){
+					$("#captcha_x").css('border','1px solid red');
+				}else{
+					let send_cap="ok";
+					$.ajax({
+						url:window.location.origin + "/checking.php",
+						method:"POST",
+						data:{cap:cap,send_cap:send_cap},
+						success:function(y){
+							if(y==1){
+								a='ok';
+								$("#captcha_x").css('border','1px solid green');
+							}
+							if(y==0){
+								swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
+								$("#captcha_x").css('border','1px solid red');
+							}
+						},error:function(){
+							
+						}
+					})
+				}
+				if(usr!='' && pss!='' && psscon!='' && b!='' && a!='' && cap!=''){
+					$.ajax({
+						url:window.location.origin + "/checking.php",
+						method:"POST",
+						data:{send_user:send_user,usr:usr,pss:pss},
+						success:function(x){
+							if(x==1){
+								window.location.reload();
+							}
+							if(x==0){
+								swal("اخطار", "اطلاعات اشتباه وارد شده است", "error");
+							}
+						},error:function(){
+				
+						}
+					})
+				}
+							       
+			})
+		})		                
+	</script>
 <?php }else{
 /**
  * CodeIgniter
