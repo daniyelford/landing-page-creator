@@ -87,6 +87,7 @@ const DS = DIRECTORY_SEPARATOR;
 
 
 // const COMPANY='';
-const DBNAME = 'aseos_tbl';
-const USERNAME = 'aseos';
-const PASSWORD = '_a)6EIu?*z6}';
+const DBNAME = 'landing_tbl';
+const USERNAME = '';
+const PASSWORD = '';
+const PARENT_URL = "landing_parent";

@@ -69,7 +69,7 @@ class Map extends My_Controller
 				'latitude' => $lt, 'longitude' => $ln, 'title' => $title);
 			$this->Map_model->delete_data($data);
 		} else {
-			redirect(base_url() . 'map'.DS.index);
+			redirect(base_url() . 'map'.DS.'index');
 		}
 	}
 

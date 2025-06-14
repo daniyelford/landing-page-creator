@@ -84,7 +84,7 @@ public function index(){
 			'is_online' => 'آنلاین'
 		);
 
-		$foot = array('footer' => "<span>پرتال ساز پردازش هوشمند علاءالدین _ پشتیبانی: 02644909</span>");
+		$foot = array('footer' => "<span>dnylfrd</span>");
 		$a = $this->load->view('panel/header.php', $head, true);
 		$a .= $this->load->view('panel/loader.php', array(), true);
         //  $a .= $this->load->view('panel/setupMenu.php', array(), true);

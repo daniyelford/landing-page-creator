@@ -239,7 +239,7 @@ class Auth extends MY_Controller
 							'role' => 'user_reg',
 						);
 						$this->session->set_userdata($user_info);
-						echo $this->Auth_model->s_alert("عملیات موفق بود"," ","success","ورود","http://aseos.ir/admin");
+						echo $this->Auth_model->s_alert("عملیات موفق بود"," ","success","ورود",PARENT_URL.'/admin');
 					}
 			    }
 			} else {
@@ -288,7 +288,7 @@ class Auth extends MY_Controller
 			'description' => 'description',
 			'keyword' => 'keywords',
 			'page_title' => 'register');
-		$footer = array('footer' => '<span>پرتال ساز پردازش هوشمند علاالدین _ پشتیبانی: 02691010197</span>');
+		$footer = array('footer' => '<span>dnylfrd</span>');
         $data= array(
 			'code_mely_info' => $code_mely_info,
 			'logo'=>$logo,
@@ -358,7 +358,7 @@ class Auth extends MY_Controller
 				     $this->Auth_model->new_pass(array('username'=>md5($user_new),'password'=>md5($new_pass)),array('id'=>$row->id));
 				    $time=time()+60*2;
 					$this->session->set_userdata(array('success_forgot'=>'ok','time_forgot'=>$time));
-					echo $this->Auth_model->s_alert("عملیات موفق بود"," ","success","ورود","http://aseos.ir/auth");
+					echo $this->Auth_model->s_alert("عملیات موفق بود"," ","success","ورود",PARENT_URL."/auth");
                     }else{
                         $this->session->set_userdata(array('valid_phone_num_err'=>'ok'));
                     }
@@ -377,9 +377,9 @@ class Auth extends MY_Controller
 	        }
 	    }
 
-if(!empty($this->session->userdata('time_forgot')) && $this->session->userdata('time_forgot')===time()){
-  $this->session->unset->userdata('time_forgot'); 
-}
+		if(!empty($this->session->userdata('time_forgot')) && $this->session->userdata('time_forgot')===time()){
+			$this->session->unset->userdata('time_forgot'); 
+		}
 
 
 		//send form values
@@ -397,21 +397,21 @@ if(!empty($this->session->userdata('time_forgot')) && $this->session->userdata('
 		if (!empty($this->session->userdata('error_cap_forgot'))) {
 			$error = 'کد را به درستی وارد کنید';
 			$this->session->unset_userdata('error_cap_forgot');
-}elseif (!empty($this->session->userdata('error_empty_forgot'))){
-    $error='اطلاعات را وارد کنید';
-    $this->session->unset_userdata('error_empty_forgot');
-}elseif (!empty($this->session->userdata('error_log_num'))) {
-        $error='اطلاعات به درستی وارد نشده است';
-    $this->session->unset_userdata('error_log_num');
-}elseif (!empty($this->session->userdata('valid_phone_num_err'))) {
-        $error='شماره تلفن شما اشتباه می باشد';
-    $this->session->unset_userdata('valid_phone_num_err');
-}elseif (!empty($this->session->userdata('not_reg'))) {
-        $error='ثبت نام شما ناقص بوده';
-    $this->session->unset_userdata('not_reg');
-}else{
-    $error='';
-}
+		}elseif (!empty($this->session->userdata('error_empty_forgot'))){
+			$error='اطلاعات را وارد کنید';
+			$this->session->unset_userdata('error_empty_forgot');
+		}elseif (!empty($this->session->userdata('error_log_num'))) {
+				$error='اطلاعات به درستی وارد نشده است';
+			$this->session->unset_userdata('error_log_num');
+		}elseif (!empty($this->session->userdata('valid_phone_num_err'))) {
+				$error='شماره تلفن شما اشتباه می باشد';
+			$this->session->unset_userdata('valid_phone_num_err');
+		}elseif (!empty($this->session->userdata('not_reg'))) {
+				$error='ثبت نام شما ناقص بوده';
+			$this->session->unset_userdata('not_reg');
+		}else{
+			$error='';
+		}
 		//end of get the errors from session
 
 		//get the success session
@@ -462,7 +462,7 @@ if(!empty($this->session->userdata('time_forgot')) && $this->session->userdata('
 	    $a = $this->load->view('panel'.DS.'header',$header,true);
 	    $a.= $this->load->view('panel'.DS.'auth',$data,true);
 	    $a.=$this->load->view('panel'.DS.'footer',$footer,true);
-        // $a .= $this->s_alert("عملیات موفق بود"," ","success","ورود","http://aseos.ir/auth/valid/forgot");
+        // $a .= $this->s_alert("عملیات موفق بود"," ","success","ورود",PARENT_URL."/auth/valid/forgot");
 	    echo $a;
 	}
 
