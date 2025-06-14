@@ -1,0 +1,280 @@
+[05-Apr-2022 09:25:30 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:25:30 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:25:30 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:25:30 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:25:30 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:25:33 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:25:33 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:25:33 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:25:33 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:25:33 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:26:09 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:26:10 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:08 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:27 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:27 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:27 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:27 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:27 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:28 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:28 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:28 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:28 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:28 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:34 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:27:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:01 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:01 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:01 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:01 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:01 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:02 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:04 Asia/Tehran] PHP Notice:  Undefined variable: description in /home/aseos/public_html/project/application/views/panel/header.php on line 7
+[05-Apr-2022 09:29:04 Asia/Tehran] PHP Notice:  Undefined variable: keyword in /home/aseos/public_html/project/application/views/panel/header.php on line 9
+[05-Apr-2022 09:29:04 Asia/Tehran] PHP Notice:  Undefined variable: page_title in /home/aseos/public_html/project/application/views/panel/header.php on line 11
+[05-Apr-2022 09:29:04 Asia/Tehran] PHP Notice:  Undefined variable: favicon in /home/aseos/public_html/project/application/views/panel/header.php on line 13
+[05-Apr-2022 09:29:04 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/project/application/views/panel/header.php:188
+Stack trace:
+#0 /home/aseos/public_html/index.php(1): require_once()
+#1 {main}
+  thrown in /home/aseos/public_html/project/application/views/panel/header.php on line 188
+[05-Apr-2022 09:29:45 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_open() in /home/aseos/public_html/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 30
+[05-Apr-2022 09:35:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_open() in /home/aseos/public_html/index.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 30
+[05-Apr-2022 09:41:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 09:56:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 09:58:06 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 09:59:24 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 11:14:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 11:14:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function form_input() in /home/aseos/public_html/index.php:227
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 227
+[05-Apr-2022 11:27:14 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:285
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 285
+[05-Apr-2022 11:31:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:31:46 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:31:47 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:32:52 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:32:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:32:58 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:33:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:33:05 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function set_value() in /home/aseos/public_html/index.php:248
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 248
+[05-Apr-2022 11:34:06 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/index.php:297
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 297
+[05-Apr-2022 11:34:06 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/index.php:297
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 297
+[05-Apr-2022 11:40:35 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/aseos/public_html/index.php:280
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/index.php on line 280
+[05-Apr-2022 12:02:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/aseos/public_html/checking.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/checking.php on line 5
+[05-Apr-2022 12:03:31 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/aseos/public_html/checking.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/checking.php on line 5
+[05-Apr-2022 12:29:42 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/aseos/public_html/checking.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/checking.php on line 20
+[05-Apr-2022 12:31:03 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/aseos/public_html/checking.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/checking.php on line 20
+[05-Apr-2022 12:32:13 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/aseos/public_html/checking.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/aseos/public_html/checking.php on line 20
